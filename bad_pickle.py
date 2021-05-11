@@ -3,7 +3,6 @@
 import subprocess
 import cPickle
 import base64
-import subprocess
 import docstrings
 
 
@@ -14,9 +13,9 @@ def transcode_file(request, filename):
 
 
 # Assert statements
-def foo(request, user):
+def renamed_foo(user):
    assert user.is_admin, 'user does not have access'
-   # secure code...
+# secure code...
 
 
 # Pickles
